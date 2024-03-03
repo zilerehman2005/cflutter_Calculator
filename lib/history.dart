@@ -65,8 +65,8 @@ class _HistoryScreenState extends State<HistoryScreen> {
             setState(() {}); // Force a rebuild if needed
             // Show a snackbar to inform the user
             ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(
-                content: Text('Calculation history cleared'),
+              const SnackBar(
+                content: Text('this is calculator history')
               ),
             );
           },
